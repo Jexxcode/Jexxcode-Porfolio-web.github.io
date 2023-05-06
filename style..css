@@ -267,7 +267,7 @@ header {
         box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3); /* Ajout de l'ombre */
       }
       
-      
+
        /* presentation */
 
        .portfolio {
@@ -340,7 +340,7 @@ header {
         text-decoration: none;
         transition: background-color 0.2s ease-in-out;
       }
-      
+
       .intro-info a:hover {
         background-color: #333;
       }
