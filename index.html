@@ -1,137 +1,251 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Mon Portfolio</title>
-    <link rel="stylesheet" href="style.css" />
-    <style>
-      body {
-        background-color: #ffffff;
-        background-image: url();
-        background-repeat: no-repeat;
-        background-size: cover;
-      }
-    </style>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>CV</title>
   </head>
-
-  <header>
-    <div class="logo">
-      <img src="logo.jpg" alt="Logo" />
-      <h1>Jeffrey Landry</h1>
-    </div>
-    <nav>
-      <ul>
-        <li><a href="index.html">Accueil</a></li>
-        <li><a href="Page1.html">À propos</a></li>
-        <li><a href="Page1.html">Projets</a></li>
-        <li><a href="Page1.html">Compétences</a></li>
-        <li><a href="Page1.html">Expérience</a></li>
-        <li><a href="Page1.html">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-
   <body>
-    <br /><br /><br />
-
-    <section class="welcome">
-      <div class="welcome-text">
-        <h1>Bienvenue</h1>
-        <h2>
-          Je suis Jeffrey Landry, <br />
-          développeur web
-        </h2>
-        <p>
-          Je crée des sites web modernes et esthétiques pour les entreprises et
-          les particuliers.
-        </p>
-        <section class="portfolio">
-          <div class="intro">
-            <h2>Portfolio</h2>
-            <p>Découvrez en plus sur moi</p>
+    <main class="main">
+      <intro class="intro">
+        <div class="profile">
+          <photo class="photo">
+            <img src="PhotoProfile.png" />
+          </photo>
+          <bio class="bio">
+            <h1 class="nom">Jeffrey Landry</h1>
+            <p class="profession">Développeur web</p>
+          </bio>
+        </div>
+        <div class="intro-section aPropos">
+          <h1 class="titre">à propos</h1>
+          <p class="paragraphe">
+            Salut tous le monde, je suis un programmeur de site web graduer du
+            Cegep de Rimouski. J'aime programmer en c++ et html/css. J'essai de
+            de devenir le meilleur possible ;)
+          </p>
+        </div>
+        <div class="intro-section aPropos">
+          <h1 class="titre">Projet futur</h1>
+          <p class="paragraphe">
+            Un des projets que j'adorerais réaliser est un jeu vidéo MMORPG
+            incroyable qui vous fait rêver. Je souhaite créer un univers
+            immersif qui permettra aux joueurs de vivre leurs désirs. Un jeu qui
+            refléterait la réalité, mais avec une touche de fantaisie.
+          </p>
+        </div>
+        <div class="intro-section contact">
+          <h1 class="titre">Mes contacts</h1>
+          <infoSection class="info-section">
+            <span>Rimouski, Québec</span>
+          </infoSection>
+          <infoSection class="info-section">
+            <span>jeffreylandry123@gmail.com</span>
+          </infoSection>
+        </div>
+        <div class="intro-section suivre">
+          <h1 class="titre">Me suivre</h1>
+          <div class="info-section lien">
+            <a target="_blank" rel="author" href="https://github.com/Jexxcode">
+              <span>Jexxcode@github</span>
+            </a>
           </div>
-          <div class="intro-list">
-            <div class="intro-item">
-              <img src="projet-2.jpg" alt="img" />
-              <div class="intro-info">
-                <h3>À propos</h3>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
-                  animi dignissimos eum dolor nihil fugiat ex blanditiis numquam
-                  et dicta autem porro nam, facilis aliquid doloribus molestiae.
-                  Illo, dolorum ipsa.
-                </p>
-                <a href="Page1.html">En savoir plus</a>
-              </div>
+          <lien class="info-section lien">
+            <a
+              target="_blank"
+              rel="author"
+              href="https://www.facebook.com/jeffrey.landry.714"
+            >
+              <span>Mon facebook</span>
+            </a>
+          </lien>
+        </div>
+      </intro>
+      <detail class="detail">
+        <div class="detail-section edu">
+          <div class="detail-titre">
+            <div class="titre-icon"></div>
+            <span>Études</span>
+          </div>
+          <infoDetail class="detail-content">
+            <div class="bloc-de-chronologie">
+              <h1>Diplome d'étude secondaire</h1>
+              <p>Paul Hubert, Rimouski</p>
+              <temps>2021 - 2022</temps>
             </div>
-
-            <div class="intro-item">
-              <img src="projet-3.jpg" alt="img" />
-              <div class="intro-info">
-                <h3>Mes projects</h3>
-                <p>
-                  r sit amet consectetur adipisicing elit. Optio asperiores
-                  tempora laborum. Illum, perferendis odio? Accusamus, alias
-                  repellat quod dolorum a ea saepe necessitatibus unde eum
-                  expedita commodi, molestias officiis?
-                </p>
-                <a href="Page1.html">En savoir plus</a>
-              </div>
+            <div class="bloc-de-chronologie">
+              <h1>Technique d'informatique (En cours)</h1>
+              <p>Cégep de Rimouski</p>
+              <temps>2022 - présent</temps>
             </div>
-
-            <div class="intro-item">
-              <img src="projet-1.jpg" alt="img" />
-              <div class="intro-info">
-                <h3>Mes compétemces</h3>
-                <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Ducimus, deserunt esse tempore nostrum rem dicta incidunt
-                  voluptatem cumque est neque labore, pariatur, eligendi dolore
-                  obcaecati omnis. Soluta sit iste atque!
-                </p>
-                <a href="page1.html">En savoir plus</a>
-              </div>
+          </infoDetail>
+        </div>
+        <div class="detail-section pg-skill">
+          <div class="detail-titre">
+            <div class="titre-icon"></div>
+            <span>Languages de programmation</span>
+          </div>
+          <div class="detail-content">
+            <ul class="pg-liste">
+              <li>
+                <span>HTML</span>
+                <div class="sb-skeleton">
+                  <div class="barre" style="--pgbar-longueur: 80%"></div>
+                </div>
+              </li>
+              <li>
+                <span>CSS</span>
+                <div class="sb-skeleton">
+                  <div class="barre" style="--pgbar-longueur: 75%"></div>
+                </div>
+              </li>
+              <li>
+                <span>C++</span>
+                <div class="sb-skeleton">
+                  <div class="barre" style="--pgbar-longueur: 60%"></div>
+                </div>
+              </li>
+              <li>
+                <span>C</span>
+                <div class="sb-skeleton">
+                  <div class="barre" style="--pgbar-longueur: 75%"></div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="detail-section pg-skill">
+          <div class="detail-titre">
+            <div class="titre-icon"></div>
+            <span>Mes Compétences</span>
+          </div>
+          <div class="detail-content">
+            <ul class="pg-liste">
+              <li>
+                <span>Environnement de travail</span>
+                <div class="sb-skeleton">
+                  <div class="barre" style="--pgbar-longueur: 80%"></div>
+                </div>
+              </li>
+              <li>
+                <span>Autonomie</span>
+                <div class="sb-skeleton">
+                  <div class="barre" style="--pgbar-longueur: 95%"></div>
+                </div>
+              </li>
+              <li>
+                <span>Patience</span>
+                <div class="sb-skeleton">
+                  <div class="barre" style="--pgbar-longueur: 85%"></div>
+                </div>
+              </li>
+              <li>
+                <span>Travail d'équipe</span>
+                <div class="sb-skeleton">
+                  <div class="barre" style="--pgbar-longueur: 75%"></div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="detail-section outil-skill">
+          <div class="detail-titre">
+            <div class="titre-icon"></div>
+            <span>Outils de développement</span>
+          </div>
+          <div class="detail-content">
+            <ul class="outil-liste">
+              <li>
+                <svg viewbox="0 0 100 100">
+                  <circle cx="50" cy="50" r="45"></circle>
+                  <circle
+                    class="cbar"
+                    cx="50"
+                    cy="50"
+                    r="45"
+                    style="--percent: 0.75"
+                  ></circle>
+                </svg>
+                <span class="tl-nom">Vs</span>
+                <span class="tl-exp">75%</span>
+              </li>
+              <li>
+                <svg viewbox="0 0 100 100">
+                  <circle cx="50" cy="50" r="45"></circle>
+                  <circle
+                    class="cbar"
+                    cx="50"
+                    cy="50"
+                    r="45"
+                    style="--percent: 0.8"
+                  ></circle>
+                </svg>
+                <span class="tl-nom">Github</span>
+                <span class="tl-exp">80%</span>
+              </li>
+              <li>
+                <svg viewbox="0 0 100 100">
+                  <circle cx="50" cy="50" r="45"></circle>
+                  <circle
+                    class="cbar"
+                    cx="50"
+                    cy="50"
+                    r="45"
+                    style="--percent: 0.7"
+                  ></circle>
+                </svg>
+                <span class="tl-nom">Vs code</span>
+                <span class="tl-exp">70%</span>
+              </li>
+              <li>
+                <svg viewbox="0 0 100 100">
+                  <circle cx="50" cy="50" r="45"></circle>
+                  <circle
+                    class="cbar"
+                    cx="50"
+                    cy="50"
+                    r="45"
+                    style="--percent: 0.3"
+                  ></circle>
+                </svg>
+                <span class="tl-nom">Unity</span>
+                <span class="tl-exp">30%</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="detail-section interests">
+          <div class="detail-titre">
+            <div class="titre-icon">
+              <i class="fas fa-heart"></i>
             </div>
-
-            <div class="intro-item">
-              <img src="projet-1.jpg" alt="img" />
-              <div class="intro-info">
-                <h3>Mes experiences</h3>
-                <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod
-                  repellat libero numquam magni iusto esse molestias aliquam
-                  alias, amet deleniti fuga, eligendi doloremque eveniet
-                  inventore minus eos quas saepe maiores.
-                </p>
-                <a href="page1.html">En savoir plus</a>
-              </div>
-            </div>
-
-            <div class="intro-item">
-              <img src="projet-1.jpg" alt="img" />
-              <div class="intro-info">
-                <h3>Me contacter</h3>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Voluptatibus blanditiis officiis quidem iste error alias qui
-                  nesciunt. Neque, ut similique dignissimos, fugit quidem
-                  praesentium, nostrum aspernatur ipsa ab laboriosam temporibus.
-                </p>
-                <a href="Page1.html">En savoir plus</a>
-              </div>
+            <span>Mes interêts</span>
+          </div>
+          <div class="detail-content">
+            <div class="cadre-exterieur">
+              <ul class="interet-liste">
+                <li>
+                  <span>Jeux</span>
+                </li>
+                <li>
+                  <span>Animaux de compagnie</span>
+                </li>
+                <li>
+                  <span>Musique</span>
+                </li>
+                <li>
+                  <span>Paintball</span>
+                </li>
+                <li>
+                  <span>Manga</span>
+                </li>
+              </ul>
             </div>
           </div>
-        </section>
-      </div>
-    </section>
+        </div>
+      </detail>
+    </main>
   </body>
-  <footer>
-    <h3>Contactez-moi:</h3>
-    <ul>
-      <li>
-        Email:
-        <a>jeffreylandry123@gmail.com</a>
-      </li>
-    </ul>
-  </footer>
 </html>
