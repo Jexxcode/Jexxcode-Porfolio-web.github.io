@@ -5,17 +5,16 @@
 	--couleur-gris-foncer-1: #545454;
 	--couleur-gris-foncer-2: #737373;
 	--couleur-gris-foncer-3: #9a9a9a;
-	--couleur-bleu-foncer-1: #00387f;
 	--couleur-tiffany: #00a6a6;
 	--profile-theme: #4682bf;
-	--timeline-circle-theme: #14253e;
+	--crhonologie-cercle-theme: #14253e;
 	
 	--pgbar-longueur: 100%;
 
 	--math-pi: 3.1415px;
 	--percent: 100;
 }
-
+ 
 html {
 	font-size: 100%;
     font-family: 'PT Sans', sans-serif;
@@ -220,7 +219,7 @@ body {
 	width: 15px;
 	height: 15px;
 	background-color: white;
-	border: 3px solid var(--timeline-circle-theme);
+	border: 3px solid var(--crhonologie-cercle-theme);
 	border-radius: 50%;
 	left: -10px;
 	top: -5px;
@@ -230,7 +229,7 @@ body {
 	content: '';
 	width: 3px;
 	height: 100%;
-	background-color: var(--timeline-circle-theme);
+	background-color: var(--crhonologie-cercle-theme);
 	left: -1px;
 	top: 13px;
 }
